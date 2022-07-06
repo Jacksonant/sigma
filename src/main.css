@@ -16,8 +16,8 @@
     margin: 0;
     padding: 0;
    }
-   
-      .w-layout-grid {
+
+    .w-layout-grid {
      display: -ms-grid;
      display: grid;
      grid-auto-columns: 1fr;
