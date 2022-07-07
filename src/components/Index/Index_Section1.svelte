@@ -1,6 +1,7 @@
 <script>
     export let payload={
-
+      title: '',
+      description: ''
     }
 </script>
 
@@ -12,9 +13,9 @@
           style="opacity: 1;"
           class="grid-text-content"
         >
-          <h1 class="display-heading-1">Matching you to your fullest potential. Land your dream job, fast!</h1>
+          <h1 class="display-heading-1">{payload.title}</h1>
           <p class="text-large">
-            You’re more than your resume. Create a free profile and let companies apply to interview you (with salary details upfront).
+            {payload.description}
           </p>
           <a
             href=""

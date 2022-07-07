@@ -1,6 +1,10 @@
 <script>
     export let payload={
-
+        main_page: " ",
+        employers_page: " ",
+        talents_page: " ",
+        about_page: " ",
+        jobs_page: " "
     }
 </script>
 
@@ -11,16 +15,16 @@
             <div class="navbar-row">   
                 <a href="/"
                     class="mobile-brand w-nav-brand"><a href="/"
-                    class="nav-link text-white w-nav-link">Talentloop</a></a>
+                    class="nav-link text-white w-nav-link">{payload.main_page}</a></a>
                 <nav role="navigation" class="nav-menu-wide w-nav-menu" style="transform: translateY(0px) translateX(0px);"><a href="/"
                         class="desktop-brand w-nav-brand"><a href="/"
-                        class="nav-link text-white w-nav-link">Talentloop</a></a>
+                        class="nav-link text-white w-nav-link">{payload.main_page}</a></a>
                     <div data-hover="true" data-delay="300" class="nav-link text-white w-dropdown">
                         <div class="dropdown-toggle w-dropdown-toggle" id="w-dropdown-toggle-0"
                             aria-controls="w-dropdown-list-0" aria-haspopup="menu" aria-expanded="false"
                             role="button" tabindex="0">
                             <a href="./employers">
-                            <div class="text-white">Hire Talent</div></a><img
+                            <div class="text-white">{payload.employers_page}</div></a><img
                                 src="./Optic - Webflow HTML Website Template_files/5f0e4ae264b9d44893514e33_icon-dropdown-arrow.svg"
                                 alt="" class="dropdown-arrow">
                         </div>
@@ -29,7 +33,7 @@
                         <div class="dropdown-toggle w-dropdown-toggle" id="w-dropdown-toggle-1"
                             aria-controls="w-dropdown-list-1" aria-haspopup="menu" aria-expanded="false"
                             role="button" tabindex="0">
-                            <a href="./talents"><div class="text-white">Find a job</div></a><img
+                            <a href="./talents"><div class="text-white">{payload.talents_page}</div></a><img
                                 src="./Optic - Webflow HTML Website Template_files/5f0e4ae264b9d44893514e33_icon-dropdown-arrow.svg"
                                 alt="" class="dropdown-arrow">
                         </div>
@@ -38,7 +42,7 @@
                         <div class="dropdown-toggle w-dropdown-toggle" id="w-dropdown-toggle-2"
                             aria-controls="w-dropdown-list-2" aria-haspopup="menu" aria-expanded="false"
                             role="button" tabindex="0">
-                            <a href="./about"><div class="text-white">About us</div></a><img
+                            <a href="./about"><div class="text-white">{payload.about_page}</div></a><img
                                 src="./Optic - Webflow HTML Website Template_files/5f0e4ae264b9d44893514e33_icon-dropdown-arrow.svg"
                                 alt="" class="dropdown-arrow">
                         </div>
@@ -47,7 +51,7 @@
                         <div class="dropdown-toggle w-dropdown-toggle" id="w-dropdown-toggle-3"
                             aria-controls="w-dropdown-list-3" aria-haspopup="menu" aria-expanded="false"
                             role="button" tabindex="0">
-                            <a href="./jobs"><div class="text-white">View jobs</div></a><img
+                            <a href="./jobs"><div class="text-white">{payload.jobs_page}</div></a><img
                                 src="./Optic - Webflow HTML Website Template_files/5f0e4ae264b9d44893514e33_icon-dropdown-arrow.svg"
                                 alt="" class="dropdown-arrow">
                         </div>
@@ -84,10 +88,10 @@
                         />
                       </a>
                       <div class="dropdown-content">
-                        <a href="./employers">Hire Talent</a>
-                        <a href="./talents">Find a job</a>
-                        <a href="./about">About us</a>
-                        <a href="./jobs">View jobs</a>
+                        <a href="./employers">{payload.employers_page}</a>
+                        <a href="./talents">{payload.talents_page}</a>
+                        <a href="./about">{payload.about_page}</a>
+                        <a href="./jobs">{payload.jobs_page}</a>
                       </div>
                     </li>
                   </ul>

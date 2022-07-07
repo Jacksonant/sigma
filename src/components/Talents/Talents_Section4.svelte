@@ -12,7 +12,7 @@
       <div class="logo-row"><img
           src="https://epicstartups.co/assets/sigma-logo.png" alt=""
           class="logo-row-item"><img
-          src="" alt=""
+          src="https://epicstartups.co/assets/sigma-logo.png" alt=""
           class="logo-row-item size:0.1" ><img
           src="https://epicstartups.co/assets/hantargo-logo.png" alt=""
           class="logo-row-item"><img

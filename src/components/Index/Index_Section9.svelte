@@ -1,6 +1,7 @@
 <script>
     export let payload={
-
+      img1: "",
+      img2: ""
     }
 </script>
 
@@ -14,7 +15,7 @@
         >
           <img
             src="./Optic - Webflow HTML Website Template_files/5f0fa0e1ee20ce60b4425a49_landscape-03.jpg"
-            srcset="https://assets.website-files.com/5f0cefea45df2a2a5af4fa7d/5f0fa0e1ee20ce60b4425a49_landscape-03-p-1080.jpeg 1080w, https://assets.website-files.com/5f0cefea45df2a2a5af4fa7d/5f0fa0e1ee20ce60b4425a49_landscape-03.jpg 1220w"
+            srcset={payload.img1}
             sizes="(max-width: 479px) 91vw, (max-width: 767px) 88vw, 497px"
             alt=""
           />
@@ -37,7 +38,7 @@
         >
           <img
             src="./Optic - Webflow HTML Website Template_files/5f0fa0e15d293a96bd61006c_landscape-02.jpg"
-            srcset="https://assets.website-files.com/5f0cefea45df2a2a5af4fa7d/5f0fa0e15d293a96bd61006c_landscape-02-p-1080.jpeg 1080w, https://assets.website-files.com/5f0cefea45df2a2a5af4fa7d/5f0fa0e15d293a96bd61006c_landscape-02.jpg 1220w"
+            srcset={payload.img2}
             sizes="(max-width: 479px) 91vw, (max-width: 767px) 88vw, 497px"
             alt=""
           />

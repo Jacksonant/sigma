@@ -1,6 +1,11 @@
 <script>
     export let payload={
-
+      strong_word1: "",
+      strong_word2: "",
+      strong_word3: "",
+      description1: "",
+      description2: "",
+      description3: "",
     }
 </script>
 
@@ -10,17 +15,17 @@
         <div class="horizontal-icon-large"><img
             src="./Optic - Webflow HTML Website Template_files/5f0fb077426c0142e96eb483_icon-security-cameras.svg"
             alt="" class="horizontal-icon-large-image">
-          <div><strong>Save time</strong> Sit back, relax. Let us help you find the best match between companies and talents.</div>
+          <div><strong>{payload.strong_word1}</strong> {payload.description1}</div>
         </div>
         <div class="horizontal-icon-large"><img
             src="./Optic - Webflow HTML Website Template_files/5f0fb077c82800fc90146aa8_icon-show-password.svg" alt=""
             class="horizontal-icon-large-image">
-          <div><strong>Save money </strong>100% free for talents. For employers, pay us a tiny fee only when you get a match. Pay nothing if you don’t get what you’re looking for.</div>
+          <div><strong>{payload.strong_word2}</strong> {payload.description2}</div>
         </div>
         <div class="horizontal-icon-large"><img
             src="./Optic - Webflow HTML Website Template_files/5f0fb077b345c7508abea8eb_icon-web-design.svg" alt=""
             class="horizontal-icon-large-image">
-          <div><strong>Tech-focused</strong> We specialise in only talents in tech. Trust us on all things tech-related. From Web, Mobile, Web3, UIUX and everything in between.</div>
+          <div><strong>{payload.strong_word3}</strong> {payload.description3}</div>
         </div>
       </div>
     </div>

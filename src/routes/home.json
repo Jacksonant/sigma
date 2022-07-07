@@ -5,30 +5,46 @@
             {
                 "id": "Index_Nav",
                 "content": {
-
+                    "main_page": "Talentloop",
+                    "employers_page": "Hire Talent",
+                    "talents_page": "Find a job",
+                    "about_page": "About us",
+                    "jobs_page": "View jobs"
                 }
             },
             {
                 "id": "Index_Section1",
                 "content": {
-
+                    "title": "Matching you to your fullest potential. Land your dream job, fast!",
+                    "description": "You’re more than your resume. Create a free profile and let companies apply to interview you."
                 }
             },
             {
                 "id": "Index_Section2",
                 "content": {
-
+                    "strong_word1": "Save time:",
+                    "strong_word2": "Save money:",
+                    "strong_word3": "Tech-focused:",
+                    "description1": "Sit back, relax. Let us help you find the best match between companies and talents.",
+                    "description2": "100% free for talents. For employers, pay us a tiny fee only when you get a match. Pay nothing if you don’t get what you’re looking for.",
+                    "description3": "We specialise in only talents in tech. Trust us on all things tech-related. From Web, Mobile, Web3, UIUX and everything in between."
                 }
             },
             {
                 "id": "Index_Section3",
                 "content": {
-
+                    "title": "Find your dream job, wherever you may be. 100% free.",
+                    "description": "Flexibility is the key to happiness. Whether you’re remote, hybrid, or fully in-office, Talentloop will connect you directly with hiring managers at the best companies that meet your needs best.",
+                    "img": "./Optic - Webflow HTML Website Template_files/5f0cff2d4a0b1c40c419792a_Video Play Icon.svg"
+               
                 }
             },
             {
                 "id": "Index_Section4",
                 "content": {
+                    "title": "Hire better tech talent, faster.",
+                    "description": "Looking to hire? The candidates on Talentloop are qualified and ready to interview. We’ll make sure to match the right talents to you based on your requirements and cultural fit!",
+                    "img": "./Optic - Webflow HTML Website Template_files/5f0cff2d4a0b1c40c419792a_Video Play Icon.svg"
 
                 }
             },
@@ -41,25 +57,29 @@
             {
                 "id": "Index_Section6",
                 "content": {
-
+                    "logo1": "https://epicstartups.co/assets/limitd-logo.png",
+                    "logo2": "https://epicstartups.co/assets/sigma-logo.png",
+                    "logo3": "https://epicstartups.co/assets/limitd-logo.png",
+                    "logo4": "https://media-exp2.licdn.com/dms/image/C561BAQHNymDxl0Sg5w/company-background_10000/0/1648561144081?e=1657688400&v=beta&t=rNu1UGQEvSuLpeNQLkc5R-JmEoXd7_KOf1txjaY5bho"
                 }
             },
             {
                 "id": "Index_Section7",
                 "content": {
-
+                    "title": "See what job opportunities we have"
                 }
             },
             {
                 "id": "Index_Section8",
                 "content": {
-
+                    "title": "Let’s get started! Are you a:"
                 }
             },
             {
                 "id": "Index_Section9",
                 "content": {
-
+                    "img1": "https://assets.website-files.com/5f0cefea45df2a2a5af4fa7d/5f0fa0e1ee20ce60b4425a49_landscape-03-p-1080.jpeg 1080w, https://assets.website-files.com/5f0cefea45df2a2a5af4fa7d/5f0fa0e1ee20ce60b4425a49_landscape-03.jpg 1220w",
+                    "img2": "https://assets.website-files.com/5f0cefea45df2a2a5af4fa7d/5f0fa0e15d293a96bd61006c_landscape-02-p-1080.jpeg 1080w, https://assets.website-files.com/5f0cefea45df2a2a5af4fa7d/5f0fa0e15d293a96bd61006c_landscape-02.jpg 1220w"
                 }
             },
             {
@@ -78,7 +98,11 @@
             {
                 "id": "Employers_Nav",
                 "content": {
-
+                    "main_page": "Talentloop",
+                    "employers_page": "Hire Talent",
+                    "talents_page": "Find a job",
+                    "about_page": "About us",
+                    "jobs_page": "View jobs"
                 }
             },
             {
@@ -133,7 +157,11 @@
             {
                 "id": "Talents_Nav",
                 "content": {
-
+                    "main_page": "Talentloop",
+                    "employers_page": "Hire Talent",
+                    "talents_page": "Find a job",
+                    "about_page": "About us",
+                    "jobs_page": "View jobs"
                 }
             },
             {

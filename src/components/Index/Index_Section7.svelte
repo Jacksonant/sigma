@@ -1,11 +1,13 @@
 <script>
-    export let payload={}
+    export let payload={
+      title: ""
+    }
 </script>
 
 <div class="cta-section bg-primary-1">
     <div class="cta bg-primary-3">
       <div class="cta-content">
-        <h3 class="large-heading cta-heading">See what job opportunities we have</h3>
+        <h3 class="large-heading cta-heading">{payload.title}</h3>
         <div class="cta-button-container"><a href="./jobs"
             class="button large bg-white w-inline-block">
             <div>Browse jobs</div>
