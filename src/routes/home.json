@@ -1,0 +1,76 @@
+[
+    {
+        "page": "index",
+        "components": [
+            {
+                "id": "Index_Nav",
+                "content": {
+
+                }
+            },
+            {
+                "id": "Index_Section1",
+                "content": {
+
+                }
+            },
+            {
+                "id": "Index_Section2",
+                "content": {
+
+                }
+            },
+            {
+                "id": "Index_Section3",
+                "content": {
+
+                }
+            },
+            {
+                "id": "Index_Section4",
+                "content": {
+
+                }
+            },
+            {
+                "id": "Index_Section5",
+                "content": {
+
+                }
+            },
+            {
+                "id": "Index_Section6",
+                "content": {
+
+                }
+            },
+            {
+                "id": "Index_Section7",
+                "content": {
+
+                }
+            },
+            {
+                "id": "Index_Section8",
+                "content": {
+
+                }
+            },
+            {
+                "id": "Index_Section9",
+                "content": {
+
+                }
+            },
+            {
+                "id": "Index_Footer",
+                "content": {
+
+                }
+            }
+            
+
+        ]
+    }
+
+]
