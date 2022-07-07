@@ -177,7 +177,7 @@
                     maxlength="256" name="phone" data-name="Phone" placeholder="" id="email" required=""></div>
                 <div><label for="email">Email Address</label><input type="email" class="form-input w-input"
                     maxlength="256" name="email" data-name="Email" placeholder="" id="email" required=""></div>
-                <input type="submit" value="Get Started" data-wait="Please wait..." class="button w-button">
+                <a href="./signup-talents"><input type="submit" value="Get Started" data-wait="Please wait..." class="button w-button"></a>
               </form>
               <div class="w-form-done">
                 <div>Thank you! Your submission has been received!</div>
