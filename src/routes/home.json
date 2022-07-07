@@ -126,6 +126,53 @@
 
 
         ]
+    },
+    {
+        "page": "talents",
+        "components": [
+            {
+                "id": "Talents_Nav",
+                "content": {
+
+                }
+            },
+            {
+                "id": "Talents_Section1",
+                "content": {
+
+                }
+            },
+            {
+                "id": "Talents_Section2",
+                "content": {
+
+                }
+            },
+            {
+                "id": "Talents_Section3",
+                "content": {
+
+                }
+            },
+            {
+                "id": "Talents_Section4",
+                "content": {
+
+                }
+            },
+            {
+                "id": "Talents_Section5",
+                "content": {
+
+                }
+            },
+            {
+                "id": "Talents_Footer",
+                "content": {
+
+                }
+            }
+        ]
     }
 
 ]
