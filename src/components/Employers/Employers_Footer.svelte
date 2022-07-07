@@ -1,5 +1,13 @@
 <script>
     export let payload={
+		addressline1: "",
+		addressline2: "",
+		addressline3: "",
+		phone: "",
+		email: "",
+		copyright: "",
+		company: "",
+		companylink: ""
 
     }
 </script>
@@ -9,12 +17,12 @@
 		<div class="w-layout-grid footer-2-grid">
 			<div class="footer-2-contact-details">
 				<!-- <a href="" class="footer-2-logo w-inline-block"><img src="" alt="" class="logo-large" /></a> -->
-				<p>Lumi Tropicana, Persiaran Tropicana<br />47800, Selangor<br />Malaysia</p>
+				<p>{payload.addressline1}<br />{payload.addressline2}<br />{payload.addressline3}</p>
 				<div class="w-layout-grid menu-vertical-grid">
 					<a href="tel:+60183915232" class="hover-link icon-link w-inline-block">
-						<div>+60183915232</div>
+						<div>{payload.phone}</div>
 					</a><a href="mailto:hello@talentloop.co" class="hover-link icon-link w-inline-block">
-						<div>hello@talentloop.co</div>
+						<div>{payload.email}</div>
 					</a>
 				</div>
 			</div>
@@ -48,7 +56,7 @@
 
 		<div class="text-center">
 			<div class="text-small muted">
-				© Talentloop • Powered by <a href="https://sigmaschool.co/" target="_blank">Sigma School</a>
+				© {payload.copyright} • Powered by <a href={payload.companylink} target="_blank">{payload.company}</a>
 			</div>
 		</div>
 	</div>

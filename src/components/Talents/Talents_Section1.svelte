@@ -1,6 +1,7 @@
 <script>
     export let payload={
-
+      title: "",
+      description: ""
     }
 </script>
 
@@ -9,8 +10,8 @@
       <div class="w-layout-grid grid-halves">
         <div class="grid-text-content">
           <div class="container align-center">
-            <h1 class="display-heading-1 text-white">Matching you to your fullest potential. 100% free.</h1>
-            <p class="text-large">You’re more than your resume. Create a free profile and let companies apply to interview you (with salary details upfront).</p>
+            <h1 class="display-heading-1 text-white">{payload.title}</h1>
+            <p class="text-large">{payload.description}</p>
           </div>
         </div>
         <div class="container align-center">
@@ -26,7 +27,7 @@
                     <input type="text" class="form-input w-input" maxlength="256"
                     name="lastname" data-name="LastName" placeholder="" id="lastname"></div>
                 <div><label for="phone">Phone Number</label><input type="tel" class="form-input w-input"
-                    maxlength="256" name="phone" data-name="Phone" placeholder="" id="email" required=""></div>
+                    maxlength="256" name="phone" data-name="Phone" placeholder="" id="phone" required=""></div>
                 <div><label for="email">Email Address</label><input type="email" class="form-input w-input"
                     maxlength="256" name="email" data-name="Email" placeholder="" id="email" required=""></div>
                 <a href="./signup-talents"><input type="submit" value="Get Started" data-wait="Please wait..." class="button w-button"></a>

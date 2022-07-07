@@ -1,7 +1,10 @@
 <script>
     export let payload={
       img1: "",
-      img2: ""
+      img2: "",
+      talent_link: "",
+      employer_link: ""
+
     }
 </script>
 
@@ -25,7 +28,7 @@
               
             </p>
             <a
-              href="./talents"
+              href={payload.talent_link}
               class="button bg-primary-3 w-inline-block"
             >
               <div>Visit the page</div>
@@ -48,7 +51,7 @@
              
             </p>
             <a
-              href="./employers"
+              href={payload.employer_link}
               class="button bg-primary-2 w-inline-block"
             >
               <div>Visit the page</div>

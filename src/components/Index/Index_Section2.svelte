@@ -5,7 +5,7 @@
       strong_word3: "",
       description1: "",
       description2: "",
-      description3: "",
+      description3: ""
     }
 </script>
 

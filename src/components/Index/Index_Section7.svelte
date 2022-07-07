@@ -1,6 +1,7 @@
 <script>
     export let payload={
-      title: ""
+      title: "",
+      btn_link: ""
     }
 </script>
 
@@ -8,7 +9,7 @@
     <div class="cta bg-primary-3">
       <div class="cta-content">
         <h3 class="large-heading cta-heading">{payload.title}</h3>
-        <div class="cta-button-container"><a href="./jobs"
+        <div class="cta-button-container"><a href={payload.btn_link}
             class="button large bg-white w-inline-block">
             <div>Browse jobs</div>
           </a></div>

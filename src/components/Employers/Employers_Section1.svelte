@@ -1,6 +1,8 @@
 <script>
     export let payload={
-
+      title: "",
+      description: "",
+      img: ""
     }
 </script>
 
@@ -8,8 +10,8 @@
     <div class="main-container">
       <div class="w-layout-grid grid-halves">
         <div data-w-id="e8de6537-6ce7-5962-0e6b-6cf4552f522d" style="opacity: 1;" class="grid-text-content">
-          <h1 class="display-heading-1">Innovative companies are only as successful as their people</h1>
-          <p class="text-large">Get instant access to a curated pool of responsive & competent tech talent actively seeking their next role</p>
+          <h1 class="display-heading-1">{payload.title}</h1>
+          <p class="text-large">{payload.description}</p>
           <a href="#email-form"
             class="button large w-inline-block">
             <div>Get Started</div>
@@ -29,11 +31,11 @@
             <div class="portrait-image-bg bg-primary-3"></div>
             <div class="blurred-image-container"><img
                 src="./Optic - Webflow HTML Website Template_files/5f0fa0e2c295be7ce2d09969_Portrait-06.jpg"
-                srcset="https://assets.website-files.com/5f0cefea45df2a2a5af4fa7d/5f0fa0e2c295be7ce2d09969_Portrait-06-p-500.jpeg 500w, https://assets.website-files.com/5f0cefea45df2a2a5af4fa7d/5f0fa0e2c295be7ce2d09969_Portrait-06-p-800.jpeg 800w, https://assets.website-files.com/5f0cefea45df2a2a5af4fa7d/5f0fa0e2c295be7ce2d09969_Portrait-06.jpg 836w"
+                srcset= {payload.img}
                 sizes="(max-width: 479px) 91vw, (max-width: 767px) 334px, 418px" alt=""
                 class="portrait-image blurred-image"><img
                 src="./Optic - Webflow HTML Website Template_files/5f0fa0e2c295be7ce2d09969_Portrait-06.jpg"
-                srcset="https://assets.website-files.com/5f0cefea45df2a2a5af4fa7d/5f0fa0e2c295be7ce2d09969_Portrait-06-p-500.jpeg 500w, https://assets.website-files.com/5f0cefea45df2a2a5af4fa7d/5f0fa0e2c295be7ce2d09969_Portrait-06-p-800.jpeg 800w, https://assets.website-files.com/5f0cefea45df2a2a5af4fa7d/5f0fa0e2c295be7ce2d09969_Portrait-06.jpg 836w"
+                srcset= {payload.img}
                 sizes="(max-width: 479px) 91vw, (max-width: 767px) 334px, 418px" alt=""
                 class="portrait-image focussed-image"></div>
             <div class="portrait-image-overlay">

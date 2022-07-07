@@ -20,7 +20,7 @@
           <img 
           src={payload.logo3} alt=""
           class="logo-row-item size:0.1" >
-          <img style="width: 100vh; padding: 0;"
+          <img 
           src={payload.logo4} alt=""
           class="logo-row-item"></div>
     </div>
