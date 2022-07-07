@@ -71,6 +71,61 @@
             
 
         ]
+    },
+    {
+        "page": "employers",
+        "components": [
+            {
+                "id": "Employers_Nav",
+                "content": {
+
+                }
+            },
+            {
+                "id": "Employers_Section1",
+                "content": {
+
+                }
+            },
+            {
+                "id": "Employers_Section2",
+                "content": {
+
+                }
+            },
+            {
+                "id": "Employers_Section3",
+                "content": {
+
+                }
+            },
+            {
+                "id": "Employers_Section4",
+                "content": {
+
+                }
+            },
+            {
+                "id": "Employers_Section5",
+                "content": {
+
+                }
+            },
+            {
+                "id": "Employers_Section6",
+                "content": {
+
+                }
+            },
+            {
+                "id": "Employers_Footer",
+                "content": {
+
+                }
+            }
+
+
+        ]
     }
 
 ]
