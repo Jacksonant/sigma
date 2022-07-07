@@ -2,7 +2,7 @@
 	<link rel="stylesheet" href="/src/main.css" />
 </svelte:head>
 
-<div class="navbar-container sticky-top bg-primary-1">
+<!-- <div class="navbar-container sticky-top bg-primary-1">
   <div class="main-container navbar-container">
       <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease"
           data-easing2="ease" role="banner" class="navbar w-nav">
@@ -57,6 +57,99 @@
           <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div>
       </div>
   </div>
+</div> -->
+
+<div class="navbar-container sticky-top bg-primary-1">
+  <div class="main-container navbar-container">
+      <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease"
+          data-easing2="ease" role="banner" class="navbar w-nav">
+          <div class="navbar-row">   
+              <a href="/"
+                  class="mobile-brand w-nav-brand"><a href="/"
+                  class="nav-link text-white w-nav-link">Talentloop</a></a>
+              <nav role="navigation" class="nav-menu-wide w-nav-menu" style="transform: translateY(0px) translateX(0px);"><a href="/"
+                      class="desktop-brand w-nav-brand"><a href="/"
+                      class="nav-link text-white w-nav-link">Talentloop</a></a>
+                  <div data-hover="true" data-delay="300" class="nav-link text-white w-dropdown">
+                      <div class="dropdown-toggle w-dropdown-toggle" id="w-dropdown-toggle-0"
+                          aria-controls="w-dropdown-list-0" aria-haspopup="menu" aria-expanded="false"
+                          role="button" tabindex="0">
+                          <a href="./employers">
+                          <div class="text-white">Hire Talent</div></a><img
+                              src="./Optic - Webflow HTML Website Template_files/5f0e4ae264b9d44893514e33_icon-dropdown-arrow.svg"
+                              alt="" class="dropdown-arrow">
+                      </div>
+                  </div>
+                  <div data-hover="true" data-delay="300" class="nav-link text-white w-dropdown">
+                      <div class="dropdown-toggle w-dropdown-toggle" id="w-dropdown-toggle-1"
+                          aria-controls="w-dropdown-list-1" aria-haspopup="menu" aria-expanded="false"
+                          role="button" tabindex="0">
+                          <a href="./talents"><div class="text-white">Find a job</div></a><img
+                              src="./Optic - Webflow HTML Website Template_files/5f0e4ae264b9d44893514e33_icon-dropdown-arrow.svg"
+                              alt="" class="dropdown-arrow">
+                      </div>
+                  </div>
+                  <div data-hover="true" data-delay="300" class="nav-link text-white w-dropdown">
+                      <div class="dropdown-toggle w-dropdown-toggle" id="w-dropdown-toggle-2"
+                          aria-controls="w-dropdown-list-2" aria-haspopup="menu" aria-expanded="false"
+                          role="button" tabindex="0">
+                          <a href="./about"><div class="text-white">About us</div></a><img
+                              src="./Optic - Webflow HTML Website Template_files/5f0e4ae264b9d44893514e33_icon-dropdown-arrow.svg"
+                              alt="" class="dropdown-arrow">
+                      </div>
+                  </div>
+                  <div data-hover="true" data-delay="300" class="nav-link text-white w-dropdown">
+                      <div class="dropdown-toggle w-dropdown-toggle" id="w-dropdown-toggle-3"
+                          aria-controls="w-dropdown-list-3" aria-haspopup="menu" aria-expanded="false"
+                          role="button" tabindex="0">
+                          <a href="./jobs"><div class="text-white">View jobs</div></a><img
+                              src="./Optic - Webflow HTML Website Template_files/5f0e4ae264b9d44893514e33_icon-dropdown-arrow.svg"
+                              alt="" class="dropdown-arrow">
+                      </div>
+                  </div>
+              </nav>
+              <!-- <div class="menu-button w-nav-button w--open" style="-webkit-user-select: text;" aria-label="menu" role="button"
+                  tabindex="0" aria-controls="w-nav-overlay-0" aria-haspopup="menu" aria-expanded="false">
+                  <img 
+                  src="http://127.0.0.1:5500/web3x/page3/Optic%20-%20Webflow%20HTML%20Website%20Template_files/5f0e4e7cd7cb084980b643c7_icon-menu-white.svg" alt=""
+                  class="menu-button-image"> 
+                  
+                <ul>
+                    <li class="dropdown menu-button w-nav-button w--open" style="-webkit-user-select: text;" aria-label="menu" role="button"
+                    tabindex="0" aria-controls="w-nav-overlay-0" aria-haspopup="menu" aria-expanded="false">
+                      <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+                      <div class="dropdown-content">
+                        <a href="./employers">Hire Talent</a>
+                        <a href="./talents">Find a job</a>
+                        <a href="./about">About us</a>
+                        <a href="./jobs">View jobs</a>
+                      </div>
+                    </li>
+                </ul>
+              </div> -->
+               
+
+                <ul>
+                  <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">
+                      <img
+                      src="https://assets.website-files.com/5f0cefea45df2a2a5af4fa7d/5f0e4e7cd7cb084980b643c7_icon-menu-white.svg"
+                      alt=""
+                      class="menu-button-image"
+                      />
+                    </a>
+                    <div class="dropdown-content">
+                      <a href="./employers">Hire Talent</a>
+                      <a href="./talents">Find a job</a>
+                      <a href="./about">About us</a>
+                      <a href="./jobs">View jobs</a>
+                    </div>
+                  </li>
+                </ul>
+          </div>
+          <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0" style="display: none;"></div>
+      </div>
+  </div>
 </div>
 
 <div class="section bg-primary-1">
@@ -103,7 +196,7 @@
     </div>
 </div>
 
-<div class="section no-bottom-padding">
+<div class="section no-bottom-padding"  style="margin-bottom: 100px;">
     <div class="main-container">
       <div class="w-layout-grid grid-halves">
         <div id="w-node-_077b8c0b-df57-30b5-1e1c-8dfde2961b72-8930f3e0" class="container">
@@ -221,135 +314,52 @@
 </div>
 
 <div class="footer-2 border-bottom wf-section">
-    <div class="main-container">
-      <div class="w-layout-grid footer-2-grid">
-        <div class="footer-2-contact-details">
-          <a
-            href=""
-            class="footer-2-logo w-inline-block"
-            ><img
-              src=""
-              alt=""
-              class="logo-large"
-            /></a
-          >
-          <p>pending adddress line 1<br />pending adddress line 2<br />Malaysia</p>
-          <div class="w-layout-grid menu-vertical-grid">
-            <a
-              href=""
-              class="hover-link icon-link w-inline-block"
-              ><img
-                src=""
-                alt=""
-                class="link-icon"
-              />
-              <div>pending phone</div>
-            </a><a
-              href="mailto:hello@talentloop.co"
-              class="hover-link icon-link w-inline-block"
-              ><img
-                src=""
-                alt=""
-                class="link-icon"
-              />
-              <div>hello@talentloop.co</div>
-            </a>
-          </div>
-        </div>
+	<div class="main-container">
+		<div class="w-layout-grid footer-2-grid">
+			<div class="footer-2-contact-details">
+				<!-- <a href="" class="footer-2-logo w-inline-block"><img src="" alt="" class="logo-large" /></a> -->
+				<p>Lumi Tropicana, Persiaran Tropicana<br />47800, Selangor<br />Malaysia</p>
+				<div class="w-layout-grid menu-vertical-grid">
+					<a href="tel:+60183915232" class="hover-link icon-link w-inline-block">
+						<div>+60183915232</div>
+					</a><a href="mailto:hello@talentloop.co" class="hover-link icon-link w-inline-block">
+						<div>hello@talentloop.co</div>
+					</a>
+				</div>
+			</div>
 
+			<div class="w-layout-grid footer-menus-grid footer-2-menus">
+				<div>
+					<div class="text-uppercase footer-menu-title">Company</div>
+					<div class="w-layout-grid menu-vertical-grid">
+						<a href="./about" class="hover-link">About Us</a><a href="./faq" class="hover-link"
+							>FAQ</a
+						><a href="./jobs" class="hover-link">Careers</a><a
+							href="./blogs"
+							aria-current="page"
+							class="hover-link w--current">Blogs</a
+						>
+					</div>
+				</div>
+				<div>
+					<div class="text-uppercase footer-menu-title">
+						<a href="./talents" class="hover-link">Jobseekers</a>
+					</div>
+				</div>
 
-        <div class="w-layout-grid footer-menus-grid footer-2-menus">
-          <div>
-            <div class="text-uppercase footer-menu-title">Company</div>
-            <div class="w-layout-grid menu-vertical-grid">
-              <a
-                href="./about"
-                class="hover-link">About Us</a
-              ><a
-                href="./faq"
-                class="hover-link">FAQ</a
-              ><a
-                href="./jobs"
-                class="hover-link">Careers</a
-              ><a
-                href="./blogs"
-                aria-current="page"
-                class="hover-link w--current">Blogs</a
-              >
-            </div>
-          </div>
-          <div>
-            <div class="text-uppercase footer-menu-title">
-                <a
-                href="./talents"
-                class="hover-link">Jobseekers</a
-              ></div>
-            <!-- <div class="w-layout-grid menu-vertical-grid">
-              <a
-                href="https://optic-template.webflow.io/#Product-Pages"
-                class="hover-link">Product</a
-              ><a
-                href="https://optic-template.webflow.io/#Company-Pages"
-                class="hover-link">Company</a
-              ><a
-                href="https://optic-template.webflow.io/#Account-Pages"
-                class="hover-link">Account</a
-              >
-            </div> -->
-          </div>
+				<div>
+					<div class="text-uppercase footer-menu-title">
+						<a href="./employers" class="hover-link">Employers</a>
+					</div>
+				</div>
+			</div>
+		</div>
 
-          <div>
-            <div class="text-uppercase footer-menu-title">
-                <a
-                href="./employers"
-                class="hover-link">Employers</a
-              >
-            </div>
-            <!-- <div class="w-layout-grid menu-vertical-grid">
-              <a
-                href="https://optic-template.webflow.io/company/blog"
-                class="hover-link">Blog</a
-              ><a
-                href="https://optic-template.webflow.io/product/customers"
-                class="hover-link">Customers</a
-              ><a
-                href="https://optic-template.webflow.io/company/careers"
-                class="hover-link">Careers</a
-              >
-            </div> -->
-          </div>
-
-          <!-- <div>
-            <div class="text-uppercase footer-menu-title">Template</div>
-            <div class="w-layout-grid menu-vertical-grid">
-              <a
-                href="https://optic-template.webflow.io/template/getting-started"
-                class="hover-link">Getting Started</a
-              ><a
-                href="https://optic-template.webflow.io/template/changelog"
-                class="hover-link">Changelog</a
-              ><a
-                href="https://optic-template.webflow.io/template/licensing"
-                class="hover-link">Licenses</a
-              ><a
-                href="https://optic-template.webflow.io/template/style-guide"
-                class="hover-link">Style Guide</a
-              >
-            </div>
-          </div> -->
-        </div>
-      </div>
-
-
-      <div class="text-center">
-        <div class="text-small muted">
-          © Company Name • Powered by <a
-            href="https://webflow.com/"
-            target="_blank">Webflow</a
-          >
-        </div>
-      </div>
-    </div>
+		<div class="text-center">
+			<div class="text-small muted">
+				© Talentloop • Powered by <a href="https://sigmaschool.co/" target="_blank">Sigma School</a>
+			</div>
+		</div>
+	</div>
 </div>
-
 
